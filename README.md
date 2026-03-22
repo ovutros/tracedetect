@@ -10,10 +10,12 @@
 git clone https://github.com/tracedetect/tracedetect.git
 ```
 2. Navigate to the project directory:
-```bashcd tracedetect
+```bash
+cd tracedetect
 ```
 3. Install the required dependencies:
-```bashpip install -r requirements.txt
+``` bash
+docker compose up -d --build
 ```
 ### Usage
 To run the tool, use the following command:
